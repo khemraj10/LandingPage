@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Features() {
@@ -23,17 +24,17 @@ export default function Features() {
         </button>
         <p className="mt-4 text-base mb-2">On a big team? Contact sales</p>
         <div className="mt-4 flex justify-center">
-          <img
+          <Image
             src=""
             alt="Apple logo"
             className="w-10 h-10 mr-4"
           />
-          <img
+          <Image
             src=""
             alt="Windows logo"
             className="w-10 h-10 mr-4"
           />
-          <img src="" alt="Android logo" className="w-10 h-10" />
+          <Image src="" alt="Android logo" className="w-10 h-10" />
         </div>
         {showForm && (
           <div className="mt-4">
